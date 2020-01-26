@@ -16,3 +16,10 @@ heart_data$exang<-as.factor(heart_data$exang)
 heart_data$slope<-as.factor(heart_data$slope)
 heart_data$ca<-as.factor(heart_data$ca)
 heart_data$thal<-as.factor(heart_data$thalach)
+
+str(heart_data)
+
+#perform initial analysis 
+
+table(heart_data$target)
+

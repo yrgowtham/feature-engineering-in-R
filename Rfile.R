@@ -23,3 +23,4 @@ str(heart_data)
 
 table(heart_data$target)
 
+summary(heart_data)
